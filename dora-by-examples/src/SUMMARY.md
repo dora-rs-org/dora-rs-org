@@ -31,7 +31,7 @@
   - [使用相机](./medium/camera.md)
   - [av1编码](./medium/av1-encoding.md)
   - [深度相机](./medium/depth-camera.md)
-  - [深度图像处理](./medium/mediapipe.md)
+  - [姿态识别](./medium/mediapipe.md)
   - [物体识别](./medium/object-detection.md)
   - [大语言模型](./medium/llm.md)
   - [OpenAI](./medium/openai-server.md)
