@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.3 (2026-01-01)
+
+### Improvements
+- Replace dropdown with visible EN/CN button (hides print button)
+- Fix language toggle not appearing on English pages
+- Copy theme files to EN directory for proper loading
+
 ## v0.1.2 (2026-01-01)
 
 ### Fixes
