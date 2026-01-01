@@ -1,7 +1,6 @@
 [book]
 authors = ["Leon"]
 language = "en"
-multilingual = false
 src = "."
 title = "DORA Examples"
 

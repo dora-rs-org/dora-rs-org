@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.1 (2026-01-01)
+
+### Fixes
+- Remove invalid `multilingual` field from book.toml (not supported in mdbook v0.5.2)
+- Fix GitHub Actions workflow to properly build both Chinese and English books
+- Remove duplicate workflow file
+
 ## v0.1.0 (2026-01-01)
 
 ### Features
