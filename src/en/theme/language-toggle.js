@@ -46,7 +46,12 @@
             }
         };
 
-        // Insert at the beginning of right-buttons (before GitHub icon)
-        rightButtons.insertBefore(langLink, rightButtons.firstChild);
+        // Insert before the GitHub icon (second to last position)
+        var githubIcon = document.querySelector('#git-repository-button');
+        if (githubIcon && githubIcon.parentElement) {
+            rightButtons.insertBefore(langLink, githubIcon.parentElement);
+        } else {
+            rightButtons.insertBefore(langLink, rightButtons.firstChild);
+        }
     });
 })();

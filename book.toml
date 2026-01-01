@@ -5,6 +5,6 @@ src = "src"
 title = "DORA Examples"
 
 [output.html]
-git-repository-url = "https://github.com/dora-rs-org"
+git-repository-url = "https://github.com/dora-rs/dora-examples"
 additional-css = ["theme/custom.css"]
 additional-js = ["theme/language-toggle.js"]

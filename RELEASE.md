@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.4 (2026-01-01)
+
+### Changes
+- Move EN/CN button to left of GitHub icon
+- Update GitHub repo link to https://github.com/dora-rs/dora-examples
+
 ## v0.1.3 (2026-01-01)
 
 ### Improvements
