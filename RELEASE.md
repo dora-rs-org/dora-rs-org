@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.2 (2026-01-01)
+
+### Fixes
+- Fix empty theme files (language toggle and custom CSS were missing content)
+
 ## v0.1.1 (2026-01-01)
 
 ### Fixes

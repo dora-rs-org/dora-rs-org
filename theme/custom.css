@@ -1,0 +1,19 @@
+/* Language Toggle Styles */
+.language-toggle select {
+    background: transparent;
+    border: 1px solid var(--icons);
+    color: var(--icons);
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.language-toggle select:hover {
+    border-color: var(--icons-hover);
+    color: var(--icons-hover);
+}
+
+.language-toggle select option {
+    background: var(--bg);
+    color: var(--fg);
+}
