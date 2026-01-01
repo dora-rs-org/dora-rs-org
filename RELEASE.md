@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.5 (2026-01-01)
+
+### Fixes
+- Fix language toggle button positioning (now properly left of GitHub icon)
+- Fix language switching not working (improved URL path handling)
+
 ## v0.1.4 (2026-01-01)
 
 ### Changes
