@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.15 (2026-01-01)
+
+### Changes
+- Update camera example documentation with full content (EN and CN)
+- Add overview, dataflow configuration, configuration options, and Jupyter notebook variant
+
 ## v0.1.14 (2026-01-01)
 
 ### Changes
