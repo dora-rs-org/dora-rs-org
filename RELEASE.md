@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.21 (2026-01-01)
+
+### Changes
+- Update LLM voice assistant documentation with full README content (EN and CN)
+- Add complete pipeline overview, system dependencies, configuration, and troubleshooting
+
 ## v0.1.20 (2026-01-01)
 
 ### Changes
