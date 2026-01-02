@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.7 (2026-01-01)
+
+### Changes
+- Apply Ayu theme as default (light mode)
+- Set Navy as preferred dark theme
+- Match look and feel of tlborm documentation style
+
 ## v0.1.6 (2026-01-01)
 
 ### Changes
