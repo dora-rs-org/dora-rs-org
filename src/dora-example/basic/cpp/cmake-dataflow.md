@@ -17,3 +17,7 @@ $ cmake --install ./build
 ```bash
 $ dora run dataflow.yml
 ```
+
+## 源码
+
+完整源码请参考：[dora-examples/cmake-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/cmake-dataflow)

@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.12 (2026-01-01)
+
+### Changes
+- Add source code links to all example documentation (CN and EN)
+- Link each example doc to corresponding dora-examples GitHub repository
+
 ## v0.1.11 (2026-01-01)
 
 ### Changes

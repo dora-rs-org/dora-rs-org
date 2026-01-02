@@ -15,3 +15,7 @@ $ dora build dataflow.yml --uv
 ```bash
 $ dora run dataflow.yml --uv
 ```
+
+## Source Code
+
+For complete source code, see: [dora-examples/rerun-viewer](https://github.com/dora-rs/dora-examples/tree/main/examples/rerun-viewer)

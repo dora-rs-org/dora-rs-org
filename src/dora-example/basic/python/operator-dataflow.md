@@ -20,3 +20,7 @@ $ dora run dataflow.yml
 ```
 
 <p style="text-align:center"><img src="../../images/python-operator.png" alt="运行效果" width="75%"></p>
+
+## 源码
+
+完整源码请参考：[dora-examples/python-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/python-dataflow)

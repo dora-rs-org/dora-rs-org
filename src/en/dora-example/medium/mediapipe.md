@@ -18,3 +18,7 @@ $ dora run rgb-dev.yml --uv
 ```
 
 ![Demo Video](https://github.com/user-attachments/assets/8cabeb13-b9a7-480f-b526-7889304d7228)
+
+## Source Code
+
+For complete source code, see: [dora-examples/mediapipe](https://github.com/dora-rs/dora-examples/tree/main/examples/mediapipe)

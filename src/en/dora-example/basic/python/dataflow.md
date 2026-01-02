@@ -40,3 +40,7 @@ Run in another terminal window
 ```bash
 $ uv run opencv-plot --name plot
 ```
+
+## Source Code
+
+For complete source code, see: [dora-examples/python-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/python-dataflow)

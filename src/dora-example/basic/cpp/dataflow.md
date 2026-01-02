@@ -67,3 +67,7 @@ $ dora run dataflow.yaml
 - `node-rust-api`： 使用Rust API对接收到的数据进行计数，并返回计数
 - `operator-c-api`：使用C API接受数据并除以2后发出
 - `operator-rust-api`：使用Rust API对接收到的所有消息进行计数，并将收到的消息发出
+
+## 源码
+
+完整源码请参考：[dora-examples/c++-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/c++-dataflow)

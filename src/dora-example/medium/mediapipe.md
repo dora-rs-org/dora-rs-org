@@ -18,3 +18,7 @@ $ dora run rgb-dev.yml --uv
 ```
 
 ![演示视频](https://github.com/user-attachments/assets/8cabeb13-b9a7-480f-b526-7889304d7228)
+
+## 源码
+
+完整源码请参考：[dora-examples/mediapipe](https://github.com/dora-rs/dora-examples/tree/main/examples/mediapipe)

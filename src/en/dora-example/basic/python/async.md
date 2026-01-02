@@ -18,3 +18,7 @@ $ dora run dataflow.yml --uv
 This example demonstrates a simple message I/O using Python in an asynchronous manner.
 - `receive_data.py` - Asynchronously receive data
 - `send_data.py` - Send data
+
+## Source Code
+
+For complete source code, see: [dora-examples/python-async](https://github.com/dora-rs/dora-examples/tree/main/examples/python-async)

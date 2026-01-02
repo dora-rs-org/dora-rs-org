@@ -32,3 +32,7 @@ $ CXX ./build/node-bridge.cc ./node-rust-api/main.cc -std=c++17 -lm -lrt -ldl -p
 ```bash
 dora run dataflow.yml
 ```
+
+## Source Code
+
+For complete source code, see: [dora-examples/cxx-arrow-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/cxx-arrow-dataflow)

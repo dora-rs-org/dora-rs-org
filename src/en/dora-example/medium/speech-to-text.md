@@ -18,3 +18,7 @@ For example, you can directly execute
 ```bash
 HF_ENDPOINT=https://hf-mirror.com dora build whisper.yaml --uv
 ```
+
+## Source Code
+
+For complete source code, see: [dora-examples/speech-to-text](https://github.com/dora-rs/dora-examples/tree/main/examples/speech-to-text)
