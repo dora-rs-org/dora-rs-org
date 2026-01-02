@@ -1,5 +1,13 @@
 # Release Notes
 
+## v0.1.27 (2026-01-02)
+
+### Changes
+- Update translation documentation with full README content (EN and CN)
+- Add Argos Translate and Phi-4 multimodal translation pipelines
+- Include supported languages list and dataflow variants
+- Add troubleshooting guide for Phi-4 flash-attn and Argos language packages
+
 ## v0.1.26 (2026-01-02)
 
 ### Changes
