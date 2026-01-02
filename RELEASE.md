@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.24 (2026-01-02)
+
+### Changes
+- Update speech-to-text documentation with README content
+- Add graph visualization with mermaid flowchart
+
 ## v0.1.23 (2026-01-01)
 
 ### Changes

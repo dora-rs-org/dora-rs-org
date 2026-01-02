@@ -3,20 +3,34 @@
 > 地址：./examples/speech-to-text/
 > 关键词：AI，语音识别
 
+Make sure to have, dora, pip and cargo installed.
+
 ```bash
-$ dora build whisper.yaml --uv
-$ dora run whisper.yaml --uv
+dora build https://raw.githubusercontent.com/dora-rs/dora/main/examples/speech-to-text/whisper.yml
+dora run https://raw.githubusercontent.com/dora-rs/dora/main/examples/speech-to-text/whisper.yml
+
+# Wait for the whisper model to download which can takes a bit of time.
 ```
 
+## Graph Visualization
 
-该样例默认使用[openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo)模型，
-如果你想使用其他模型，可以通过为dora-whisper节点添加`MODEL_NAME_OR_PATH`环境变量来更改所使用的模型。
+```mermaid
 
+flowchart TB
+  dora-microphone
+  dora-vad
+  dora-distil-whisper
+  dora-rerun[/dora-rerun\]
+subgraph ___dora___ [dora]
+  subgraph ___timer_timer___ [timer]
+    dora/timer/secs/2[\secs/2/]
+  end
+end
+  dora/timer/secs/2 -- tick --> dora-microphone
+  dora-microphone -- audio --> dora-vad
+  dora-vad -- audio as input --> dora-distil-whisper
+  dora-distil-whisper -- text as original_text --> dora-rerun
 
-国内用户如果收到网络影响可以使用[hf-mirror](https://hf-mirror.com)镜像来加速模型参数的拉取。
-例如可以直接执行
-```bash
-HF_ENDPOINT=https://hf-mirror.com dora build whisper.yaml --uv
 ```
 
 ## 源码
