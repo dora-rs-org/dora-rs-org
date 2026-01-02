@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.11 (2026-01-01)
+
+### Changes
+- Update Lebai documentation with complete driver guide from dora-examples
+- Add simulator setup, node interfaces, configuration, and troubleshooting
+- Include lebai_simulator_dashboard.png image
+
 ## v0.1.10 (2026-01-01)
 
 ### Changes
