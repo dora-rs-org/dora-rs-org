@@ -1,5 +1,13 @@
 # Release Notes
 
+## v0.1.26 (2026-01-02)
+
+### Changes
+- Update tracker documentation with full README content (EN and CN)
+- Add CoTracker pipeline overview, nodes, configuration, and architecture
+- Include YOLO + CoTracker and VLM + CoTracker pipeline variants
+- Add troubleshooting guide for camera, GPU memory, and model download issues
+
 ## v0.1.25 (2026-01-02)
 
 ### Changes
