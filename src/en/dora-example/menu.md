@@ -12,7 +12,7 @@
       - [C Dataflow](./basic/cpp/c-dataflow.md)
       - [CMake Dataflow](./basic/cpp/cmake-dataflow)
       - [ROS2 Dataflow](./basic/cpp/ros2-dataflow)
-      - [CUDA Benchmark](./basic/cuda.md)
+      - [CXX Dataflow](./basic/cpp/cxx-dataflow.md)
     - [Python](./basic/python.md)
       - [Dataflow](./basic/python/dataflow.md)
       - [Operator](./basic/python/operator-dataflow.md)

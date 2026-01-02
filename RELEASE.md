@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.8 (2026-01-01)
+
+### Changes
+- Replace CUDA Benchmark with CXX Dataflow example
+- Add documentation for C++ dataflow using cxx crate
+- Move cxx-dataflow.md to cpp/ folder
+
 ## v0.1.7 (2026-01-01)
 
 ### Changes

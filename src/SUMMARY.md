@@ -16,7 +16,7 @@
         - [C数据流](./dora-example/basic/cpp/c-dataflow.md)
         - [CMake数据流](./dora-example/basic/cpp/cmake-dataflow.md)
         - [ROS2数据流](./dora-example/basic/cpp/ros2-dataflow.md)
-        - [CUDA基准测试](./dora-example/basic/cuda.md)
+        - [CXX数据流](./dora-example/basic/cpp/cxx-dataflow.md)
       - [Python](./dora-example/basic/python.md)
         - [数据流（Dataflow）](./dora-example/basic/python/dataflow.md)
         - [算子（Operator）](./dora-example/basic/python/operator-dataflow.md)
