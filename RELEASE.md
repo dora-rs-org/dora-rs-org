@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.16 (2026-01-01)
+
+### Changes
+- Remove alexk-lcr, aloha, and reachy documentation from advanced examples
+
 ## v0.1.15 (2026-01-01)
 
 ### Changes
