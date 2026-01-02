@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.18 (2026-01-01)
+
+### Changes
+- Update depth-camera documentation with full README content (EN and CN)
+- Add Intel RealSense and iOS LiDAR support details
+- Include prerequisites, configuration, dataflow variants, and troubleshooting
+
 ## v0.1.17 (2026-01-01)
 
 ### Changes
