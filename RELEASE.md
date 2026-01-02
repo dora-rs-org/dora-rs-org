@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.10 (2026-01-01)
+
+### Changes
+- Add Lebai robot arm documentation for both CN and EN
+
 ## v0.1.9 (2026-01-01)
 
 ### Changes
