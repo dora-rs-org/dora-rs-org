@@ -1,5 +1,10 @@
 # Release Notes
 
+## v2.5.1 (2026-01-02)
+
+### Changes
+- Update Lebai simulator dashboard screenshot (lebai_simulator_dashboard.png)
+
 ## v0.1.28 (2026-01-02)
 
 ### Changes
