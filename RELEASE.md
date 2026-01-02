@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.19 (2026-01-01)
+
+### Changes
+- Update mediapipe pose detection documentation with full README content (EN and CN)
+- Add overview, nodes, configuration, outputs, and architecture
+
 ## v0.1.18 (2026-01-01)
 
 ### Changes
