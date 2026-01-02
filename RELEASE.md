@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.6 (2026-01-01)
+
+### Changes
+- Update home page links to point to intro.md instead of menu.md
+
 ## v0.1.5 (2026-01-01)
 
 ### Fixes

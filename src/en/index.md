@@ -4,8 +4,8 @@ Welcome to the DORA Examples documentation site!
 
 ## Project Documentation
 
-- [DORA Examples](./dora-example/menu.md) - Learn DORA through hands-on examples
-- [OpenLoong Examples](./openloong/menu.md) - OpenLoong robot documentation
+- [DORA Examples](./dora-example/intro.md) - Learn DORA through hands-on examples
+- [OpenLoong Examples](./openloong/intro.md) - OpenLoong robot documentation
 
 ## External Resources
 

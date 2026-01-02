@@ -4,8 +4,8 @@
 
 ## 项目文档
 
-- [Dora样例](./dora-example/menu.md) - 通过例子学习Dora的使用方法
-- [OpenLoong样例](./openloong/menu.md) - OpenLoong机器人相关文档
+- [Dora样例](./dora-example/intro.md) - 通过例子学习Dora的使用方法
+- [OpenLoong样例](./openloong/intro.md) - OpenLoong机器人相关文档
 
 ## 外部资源
 
