@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.20 (2026-01-01)
+
+### Changes
+- Update object-detection documentation with full README content (EN and CN)
+- Add YOLO overview, nodes, configuration, outputs, and troubleshooting
+
 ## v0.1.19 (2026-01-01)
 
 ### Changes
