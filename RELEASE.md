@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.17 (2026-01-01)
+
+### Changes
+- Update av1-encoding documentation with full README content (EN and CN)
+- Add overview, nodes, prerequisites, configuration, troubleshooting, and architecture
+
 ## v0.1.16 (2026-01-01)
 
 ### Changes
