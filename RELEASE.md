@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.25 (2026-01-02)
+
+### Changes
+- Update Chinese speech-to-text documentation with full README content
+- Add overview, nodes, prerequisites, configuration, architecture, and troubleshooting sections
+- Include hf-mirror instructions for users in China
+
 ## v0.1.24 (2026-01-02)
 
 ### Changes
