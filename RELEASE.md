@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.13 (2026-01-01)
+
+### Changes
+- Add Zenoh dataflow examples for Python and Rust
+- Python Zenoh linked to python-zenoh-dataflow
+- Rust Zenoh linked to rust-zenoh-dataflow
+
 ## v0.1.12 (2026-01-01)
 
 ### Changes
