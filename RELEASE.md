@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.23 (2026-01-01)
+
+### Changes
+- Update speech-to-speech documentation with full README content (EN and CN)
+- Add real-time STT/TTS pipeline, VAD, Whisper, Kokoro nodes, and troubleshooting
+
 ## v0.1.22 (2026-01-01)
 
 ### Changes
