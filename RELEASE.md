@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.9 (2026-01-01)
+
+### Changes
+- Add expected output section to CXX Dataflow documentation
+
 ## v0.1.8 (2026-01-01)
 
 ### Changes

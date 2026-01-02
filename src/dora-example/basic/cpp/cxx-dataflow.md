@@ -44,6 +44,26 @@ nodes:
 cargo run --example cxx-dataflow
 ```
 
+### 预期输出
+
+运行成功后，你将看到类似以下的输出：
+
+```
+2026-01-02T00:55:11.194863Z  INFO dora_daemon::log:    Received input tick (counter: 1) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+2026-01-02T00:55:11.195698Z  INFO dora_daemon::log:    Received input  (counter: 1) data: [1, ] build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-c-api")
+2026-01-02T00:55:11.494528Z  INFO dora_daemon::log:    Received input tick (counter: 2) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+2026-01-02T00:55:11.495464Z  INFO dora_daemon::log:    Received input  (counter: 2) data: [2, ] build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-c-api")
+2026-01-02T00:55:11.794526Z  INFO dora_daemon::log:    Received input tick (counter: 3) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+2026-01-02T00:55:11.795299Z  INFO dora_daemon::log:    Received input  (counter: 3) data: [3, ] build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-c-api")
+2026-01-02T00:55:12.094486Z  INFO dora_daemon::log:    Received input tick (counter: 4) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+2026-01-02T00:55:12.095222Z  INFO dora_daemon::log:    Received input  (counter: 4) data: [4, ] build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-c-api")
+2026-01-02T00:55:12.394238Z  INFO dora_daemon::log:    Received input tick (counter: 5) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+2026-01-02T00:55:12.395092Z  INFO dora_daemon::log:    Received input  (counter: 5) data: [5, ] build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-c-api")
+2026-01-02T00:55:12.694241Z  INFO dora_daemon::log:    Received input tick (counter: 6) build_id=None dataflow_id=Some("019b7c33-867d-7a38-ae09-3d76187688f0") node_id=Some("cxx-node-rust-api")
+```
+
+日志显示了两个节点之间的数据流：`cxx-node-rust-api`接收定时器tick，然后将计数器值发送给`cxx-node-c-api`。
+
 ### 手动构建
 
 如果需要手动构建，请按以下步骤操作：
