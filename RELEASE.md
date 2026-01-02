@@ -1,5 +1,13 @@
 # Release Notes
 
+## v0.1.28 (2026-01-02)
+
+### Changes
+- Update VLM documentation with full README content (EN and CN)
+- Add Qwen2.5-VL overview, nodes, prerequisites, configuration, and architecture
+- Include vision-only and speech-to-speech pipeline variants
+- Add troubleshooting guide for camera, GPU memory, and model download issues
+
 ## v0.1.27 (2026-01-02)
 
 ### Changes
