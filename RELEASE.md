@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.14 (2026-01-01)
+
+### Changes
+- Update Zenoh dataflow documentation with full content from README.md
+- Include overview, structure, prerequisites, and expected output
+
 ## v0.1.13 (2026-01-01)
 
 ### Changes
