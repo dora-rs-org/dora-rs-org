@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.1.22 (2026-01-01)
+
+### Changes
+- Update openai-server documentation with full README content (EN and CN)
+- Add API features, chat completions, image input examples, and architecture
+
 ## v0.1.21 (2026-01-01)
 
 ### Changes
