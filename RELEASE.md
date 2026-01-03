@@ -1,5 +1,16 @@
 # Release Notes
 
+## v2.5.15 (2026-01-03)
+
+### Changes
+- Expand quickstart documentation with detailed YAML file explanations
+- Add dataflow diagrams for each autonomous driving pipeline
+- Document oasis_agent_yolov5.yaml (object detection)
+- Document oasis_agent_obstacle_location.yaml (obstacle localization)
+- Document oasis_agent_planning.yaml (path planning)
+- Document oasis_full.yaml (complete autonomous driving)
+- Add troubleshooting section and advanced extensions
+
 ## v2.5.14 (2026-01-03)
 
 ### Changes
