@@ -17,6 +17,6 @@ dora run
 
 ## Project Documentation
 
-- [DORA Examples](./dora-example/menu.md) - Learn DORA through hands-on examples
+- [Hands-on Examples](./dora-example/menu.md) - Learn DORA through hands-on examples
 - [OpenLoong Examples](./openloong/intro.md) - OpenLoong robot documentation
 

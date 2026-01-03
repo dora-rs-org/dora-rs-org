@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.5 (2026-01-02)
+
+### Changes
+- Rename "Dora样例" to "教程" in Chinese
+- Rename "DORA Examples" to "Hands-on Examples" in English
+
 ## v2.5.4 (2026-01-02)
 
 ### Changes
