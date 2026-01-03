@@ -57,6 +57,8 @@ dora up
 dora start dataflow.yml
 ```
 
+![Franka Panda Simulation](./franka/franka.gif)
+
 2. Monitor the logs:
 
 ```bash

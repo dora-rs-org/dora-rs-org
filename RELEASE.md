@@ -1,5 +1,10 @@
 # Release Notes
 
+## v2.5.8 (2026-01-02)
+
+### Changes
+- Add Franka simulation GIF to show dataflow result (CN and EN)
+
 ## v2.5.7 (2026-01-02)
 
 ### Changes

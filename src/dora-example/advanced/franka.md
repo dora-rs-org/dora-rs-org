@@ -57,6 +57,8 @@ dora up
 dora start dataflow.yml
 ```
 
+![Franka Panda 仿真](./franka/franka.gif)
+
 2. 监控日志：
 
 ```bash
