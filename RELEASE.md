@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.5.2 (2026-01-02)
+
+### Changes
+- Enhance main page (intro.md) with Dora-rs welcome content
+- Add feature highlights: modularity, low latency, multi-language, lightweight deployment
+- Add quick start guide with cargo install instructions
+
 ## v2.5.1 (2026-01-02)
 
 ### Changes
