@@ -1,7 +1,5 @@
 # 语音到语音示例
 
-> 地址：./examples/speech-to-speech/
-> 关键词：语音、STT、TTS、Whisper、Kokoro、VAD、实时
 
 本示例演示使用dora-rs构建的实时语音到语音管道。它捕获您的声音，使用Whisper进行转录，并使用Kokoro TTS将转录内容朗读出来。
 

@@ -1,7 +1,5 @@
 # Build and Launch
 
-> Keywords: build, launch
-
 ## Common Commands in Dora-CLI
 The Dora command-line tool provides commands such as `build` and `start`.
 

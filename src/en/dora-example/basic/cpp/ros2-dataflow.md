@@ -1,9 +1,5 @@
 # ROS2 Dataflow
 
-> Location: ./examples/c++-ros2-dataflow
->
-> Keywords: ROS2
-
 Ensure that the ROS2 environment is properly [installed and configured](/appendix/ros2-installation.md)
 
 Dora interacts with ROS through [ros2-client](https://crates.io/crates/ros2-client)

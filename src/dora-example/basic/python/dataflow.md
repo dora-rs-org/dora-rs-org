@@ -1,8 +1,5 @@
-# 数据流（Dataflow）
+# 数据流
 
-> 地址：examples/python-dataflow
->
-> 关键词：Python, Dataflow
 
 官方的Node Hub文件夹中提供了许多现成的节点
 本例中用到的有

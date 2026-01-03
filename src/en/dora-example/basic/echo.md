@@ -1,9 +1,5 @@
 # echo
 
-> Path: ./examples/echo
->
-> Keywords: Node, Dataflow
-
 In Dora, a logical function is typically implemented as a node (Node). The interaction between different logical functions relies on information flow (Dataflow). To facilitate the combination of different nodes, Dora uses YAML files to declare the "flow" of messages.
 
 YAML not only declares the inputs and outputs of messages between different nodes, but can also declare the process of node building (compilation, installation). These nodes need to be built before use.

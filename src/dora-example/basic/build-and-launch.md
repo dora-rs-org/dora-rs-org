@@ -1,6 +1,5 @@
 # 构建与加载
 
-> 关键词：build, launch
 
 ## Dora-cli 中常用的命令
 Dora命令行工具提供了`build`和`start`等命令。

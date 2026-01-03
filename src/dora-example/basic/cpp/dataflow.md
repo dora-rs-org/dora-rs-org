@@ -1,8 +1,5 @@
-# 数据流（Dataflow)
+# 数据流
 
-> 地址：./examples/c++-dataflow
->
-> 关键词：C++, Node, Operator
 
 ## Dora相关包的准备
 [需要预先准备的包](/basic/cpp.md#需要预先准备的包)

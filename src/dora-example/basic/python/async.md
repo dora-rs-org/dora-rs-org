@@ -1,8 +1,5 @@
 # 异步
 
-> 地址：examples/python-async
->
-> 关键词：异步
 
 ```bash
 $ uv venv -p 3.11 --seed # 创建环境

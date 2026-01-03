@@ -1,9 +1,5 @@
 # C Dataflow
 
-> Location: ./examples/c-dataflow
->
-> Keywords: Dataflow, C
-
 ## Build C API Related Packages
 ```bash
 $ cargo build -p dora-node-api-c

@@ -1,8 +1,5 @@
 # OpenAI Server Example
 
-> Location: ./examples/openai-server/
-> Keywords: OpenAI, API, server, chat completions, LLM integration
-
 This example demonstrates how to use the `dora-openai-server` to create an OpenAI-compatible API server within a Dora dataflow.
 
 ## Overview

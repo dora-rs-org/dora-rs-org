@@ -1,8 +1,5 @@
 # Object Tracking
 
-> Location: ./examples/tracker/
-> Keywords: AI, object tracking, CoTracker
-
 ## Overview
 
 This dataflow creates a real-time object tracking pipeline using Facebook's CoTracker:

@@ -1,8 +1,5 @@
 # C数据流
 
-> 地址：./examples/c-dataflow
->
-> 关键词：Dataflow, C
 
 ## 构建C API相关包
 ```bash

@@ -1,8 +1,5 @@
 # ROS2数据流
 
-> 地址：./examples/c++-ros2-dataflow
->
-> 关键词：ROS2
 
 确保ROS2环境已正确[安装和配置](/appendix/ros2-installation.md)
 

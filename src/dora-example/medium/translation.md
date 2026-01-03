@@ -1,7 +1,5 @@
 # 翻译
 
-> 地址：./examples/translation/
-> 关键词：AI，语音翻译，多语言
 
 ## 概述
 

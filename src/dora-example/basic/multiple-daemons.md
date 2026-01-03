@@ -1,7 +1,5 @@
 # 多守护进程（Daemon）
 
-> 地址：examples/multiple-daemons
-> 关键词：Daemon, Coordinator
 
 Dora通过Coordinator来协调多个Daemon的运行。Daemon可以来自不同的机器。这是Dora分布式的基础。
 

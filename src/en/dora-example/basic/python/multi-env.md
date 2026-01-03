@@ -1,9 +1,5 @@
 # Multi-Python Environment Coexistence
 
-> Location: examples/python-multi-env
->
-> Keywords: Multi-environment
-
 `uv` can switch between different Python environments through the `VIRTUAL_ENV` environment variable, so you only need to configure it in `dataflow.yml`.
 
 ## Build Environment

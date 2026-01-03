@@ -1,7 +1,5 @@
 # 深度相机
 
-> 地址：./examples/depth_camera/
-> 关键词：深度相机、Intel RealSense、iOS LiDAR、RGB、深度数据、Rerun
 
 本示例演示如何从深度相机捕获RGB图像和深度数据，并在[Rerun](https://rerun.io/)中进行可视化。
 

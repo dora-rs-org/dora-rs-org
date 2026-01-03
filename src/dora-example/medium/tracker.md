@@ -1,7 +1,5 @@
 # 物体追踪
 
-> 地址：./examples/tracker/
-> 关键词：AI，物体追踪，CoTracker
 
 ## 概述
 

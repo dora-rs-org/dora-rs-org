@@ -1,8 +1,5 @@
 # Visualization
 
-> Location: ./examples/rerun-viewer/
-> Keywords: data visualization
-
 [rerun](https://rerun.io) provides an excellent visualization solution for various physical AI data.
 In this example, the `dora-rerun` node visualizes images captured by the `opencv-video-capture` node.
 

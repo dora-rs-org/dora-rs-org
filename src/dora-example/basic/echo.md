@@ -1,8 +1,5 @@
 # echo
 
-> 路径: ./examples/echo
->
-> 关键词：Node, Dataflow
 
 Dora中，一个逻辑功能通常作为节点（Node）。不同逻辑功能的交互依赖于信息的交互（Dataflow）。为了方便不同节点之间的组合，Dora使用yaml文件来声明消息的“流动”。
 

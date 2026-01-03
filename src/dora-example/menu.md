@@ -1,6 +1,5 @@
 # 目录
-- [介绍](./intro.md)
-- [目录](./menu.md)
+
 - [安装](./install.md)
 - [基础](./basic.md)
   - [echo](./basic/echo.md)

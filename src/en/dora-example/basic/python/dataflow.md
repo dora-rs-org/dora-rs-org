@@ -1,9 +1,5 @@
 # Dataflow
 
-> Location: examples/python-dataflow
->
-> Keywords: Python, Dataflow
-
 The official Node Hub folder provides many ready-to-use nodes.
 The ones used in this example are:
 - `opencv-video-capture` for reading from camera

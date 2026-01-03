@@ -1,8 +1,5 @@
 # Translation
 
-> Location: ./examples/translation/
-> Keywords: AI, speech translation, multilingual
-
 ## Overview
 
 This dataflow creates a real-time speech translation pipeline:

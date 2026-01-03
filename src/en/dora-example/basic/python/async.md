@@ -1,9 +1,5 @@
 # Async
 
-> Location: examples/python-async
->
-> Keywords: Async
-
 ```bash
 $ uv venv -p 3.11 --seed # Create environment
 $ uv pip install -e ../../apis/python/node # Install Dora Python API

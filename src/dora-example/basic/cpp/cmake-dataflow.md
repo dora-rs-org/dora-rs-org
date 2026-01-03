@@ -1,8 +1,5 @@
 # CMake数据流
 
-> 地址：./examples/cmake-dataflow
->
-> 关键词：CMake, Dataflow
 
 CMake是一个跨平台的构建系统，它允许开发者使用简单的脚本来描述项目的依赖关系和构建规则，从而实现跨平台的构建。C/C++ Dora项目也可以使用CMake来构建。
 

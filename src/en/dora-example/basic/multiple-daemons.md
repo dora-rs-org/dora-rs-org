@@ -1,8 +1,5 @@
 # Multiple Daemons
 
-> Path: examples/multiple-daemons
-> Keywords: Daemon, Coordinator
-
 Dora coordinates the execution of multiple Daemons through the Coordinator. Daemons can come from different machines. This is the foundation of Dora's distributed capabilities.
 
 ## Launch Preparation

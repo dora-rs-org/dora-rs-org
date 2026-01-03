@@ -1,9 +1,5 @@
 # CMake Dataflow
 
-> Location: ./examples/cmake-dataflow
->
-> Keywords: CMake, Dataflow
-
 CMake is a cross-platform build system that allows developers to use simple scripts to describe project dependencies and build rules, thereby enabling cross-platform builds. C/C++ Dora projects can also be built using CMake.
 
 ## Build

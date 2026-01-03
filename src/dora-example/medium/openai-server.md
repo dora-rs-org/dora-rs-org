@@ -1,7 +1,5 @@
 # OpenAI服务器示例
 
-> 地址：./examples/openai-server/
-> 关键词：OpenAI、API、服务器、聊天补全、LLM集成
 
 本示例演示如何使用`dora-openai-server`在Dora数据流中创建一个OpenAI兼容的API服务器。
 

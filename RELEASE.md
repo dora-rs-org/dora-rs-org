@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.6 (2026-01-02)
+
+### Changes
+- Remove path/address and keywords metadata lines from all example docs (CN and EN)
+- Clean up 38 example documentation files
+
 ## v2.5.5 (2026-01-02)
 
 ### Changes

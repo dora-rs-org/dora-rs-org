@@ -1,8 +1,5 @@
 # Depth Camera Example
 
-> Location: ./examples/depth_camera/
-> Keywords: depth camera, Intel RealSense, iOS LiDAR, RGB, depth data, Rerun
-
 This example demonstrates capturing RGB images and depth data from depth cameras, with visualization in [Rerun](https://rerun.io/).
 
 ## Overview

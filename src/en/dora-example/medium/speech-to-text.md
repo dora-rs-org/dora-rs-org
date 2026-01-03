@@ -1,8 +1,5 @@
 # Speech to Text
 
-> Location: ./examples/speech-to-text/
-> Keywords: AI, speech recognition
-
 ```bash
 $ dora build whisper.yaml --uv
 $ dora run whisper.yaml --uv

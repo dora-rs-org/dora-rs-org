@@ -1,9 +1,5 @@
 # Operator
 
-> Location: examples/python-operator-dataflow
->
-> Keywords: Operator
-
 Operator provides a more lightweight solution with more advanced Dora features and faster communication speed.
 
 ## Install Dependencies

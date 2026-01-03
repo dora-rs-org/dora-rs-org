@@ -1,8 +1,5 @@
 # Speech-to-Speech Example
 
-> Location: ./examples/speech-to-speech/
-> Keywords: speech, voice, STT, TTS, Whisper, Kokoro, VAD, real-time
-
 This example demonstrates a real-time speech-to-speech pipeline using dora-rs. It captures your voice, transcribes it using Whisper, and speaks the transcription back using Kokoro TTS.
 
 ## Overview

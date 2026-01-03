@@ -1,9 +1,5 @@
 # Dataflow (Arrow Dataflow)
 
-> Location: ./examples/c++-arrow-dataflow
->
-> Keywords: Arrow, Dataflow
-
 [Apache Arrow](https://github.com/apache/arrow) is a universal, columnar format for *fast data exchange and in-memory analytics* tools. It supports multiple languages.
 
 ## Install Arrow

@@ -1,7 +1,5 @@
 # 语音到文字
 
-> 地址：./examples/speech-to-text/
-> 关键词：AI，语音识别
 
 ## 概述
 

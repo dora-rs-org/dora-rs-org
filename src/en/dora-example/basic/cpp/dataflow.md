@@ -1,9 +1,5 @@
 # Dataflow
 
-> Location: ./examples/c++-dataflow
->
-> Keywords: C++, Node, Operator
-
 ## Preparation of Dora-related Packages
 [Packages to Prepare in Advance](/basic/cpp.md#需要预先准备的包)
 The official examples use clang++ for compilation, but g++ has been tested and also works. For most Linux distributions (such as Ubuntu), the default installed g++ can be used.
