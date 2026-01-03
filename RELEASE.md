@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.11 (2026-01-03)
+
+### Changes
+- Update benchmark documentation with CUDA Zero Copy content (section 2.5.1)
+- Add installation, run commands, and demo code instructions
+
 ## v2.5.10 (2026-01-03)
 
 ### Changes
