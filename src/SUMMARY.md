@@ -3,7 +3,6 @@
 - [首页](./index.md)
 
 - [Dora样例](./dora-example/menu.md)
-  - [介绍](./dora-example/intro.md)
   - [安装](./dora-example/install.md)
   - [基础](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)

@@ -3,7 +3,6 @@
 - [Home](./index.md)
 
 - [DORA Examples](./dora-example/menu.md)
-  - [Introduction](./dora-example/intro.md)
   - [Installation](./dora-example/install.md)
   - [Basic](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)

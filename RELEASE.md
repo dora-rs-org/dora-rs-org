@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.5.3 (2026-01-02)
+
+### Changes
+- Move welcome content to main index page (index.md)
+- Remove "Introduction" section from dora-example menu (CN and EN)
+- Update both Chinese and English homepages with Dora-rs welcome content
+
 ## v2.5.2 (2026-01-02)
 
 ### Changes
