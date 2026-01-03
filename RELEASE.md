@@ -1,5 +1,10 @@
 # Release Notes
 
+## v2.5.4 (2026-01-02)
+
+### Changes
+- Remove "External Resources" section from homepage (CN and EN)
+
 ## v2.5.3 (2026-01-02)
 
 ### Changes
