@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2.5.17 (2026-01-03)
+
+### Changes
+- Expand Python Arrow Test documentation with comprehensive Arrow guide
+- Add sections: What is Arrow, core concepts, data type conversion, supported types
+- Include usage examples for sending/receiving data in dora nodes
+- Document zero-copy advantages and best practices
+
 ## v2.5.16 (2026-01-03)
 
 ### Changes
