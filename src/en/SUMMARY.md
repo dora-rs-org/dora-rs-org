@@ -60,3 +60,8 @@
   - [Introduction](./openloong/intro.md)
   - [Environment Setup](./openloong/install.md)
   - [Examples](./openloong/examples.md)
+
+- [Autonomous Driving](./dora-drives/menu.md)
+  - [Introduction](./dora-drives/intro.md)
+  - [Installation](./dora-drives/install.md)
+  - [Getting Started](./dora-drives/quickstart.md)

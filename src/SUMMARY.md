@@ -60,3 +60,8 @@
   - [介绍](./openloong/intro.md)
   - [开发环境准备](./openloong/install.md)
   - [openloong实例](./openloong/examples.md)
+
+- [自动驾驶入门](./dora-drives/menu.md)
+  - [介绍](./dora-drives/intro.md)
+  - [安装](./dora-drives/install.md)
+  - [快速开始](./dora-drives/quickstart.md)

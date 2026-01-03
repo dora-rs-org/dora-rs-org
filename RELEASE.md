@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2.5.14 (2026-01-03)
+
+### Changes
+- Add "Autonomous Driving" section (自动驾驶入门) to navigation
+- Create dora-drives documentation pages: intro, install, quickstart
+- CN pages link to gitcode.com/dora-rs/dora-drives
+- EN pages link to github.com/dora-rs/dora-drives
+
 ## v2.5.13 (2026-01-03)
 
 ### Changes
