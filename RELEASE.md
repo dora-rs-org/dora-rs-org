@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.5.16 (2026-01-03)
+
+### Changes
+- Rename "教程" to "Dora 手把手教程" in Chinese navigation
+- Rename "Hands-on Examples" to "Dora Hands-on Tutorial" in English navigation
+- Update homepage to include "自动驾驶入门" / "Autonomous Driving" section
+
 ## v2.5.15 (2026-01-03)
 
 ### Changes

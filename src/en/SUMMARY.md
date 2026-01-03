@@ -2,7 +2,7 @@
 
 - [Home](./index.md)
 
-- [Hands-on Examples](./dora-example/menu.md)
+- [Dora Hands-on Tutorial](./dora-example/menu.md)
   - [Installation](./dora-example/install.md)
   - [Basic](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)

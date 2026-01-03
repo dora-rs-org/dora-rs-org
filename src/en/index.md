@@ -17,6 +17,7 @@ dora run
 
 ## Project Documentation
 
-- [Hands-on Examples](./dora-example/menu.md) - Learn DORA through hands-on examples
+- [Dora Hands-on Tutorial](./dora-example/menu.md) - Learn DORA through hands-on examples
 - [OpenLoong Examples](./openloong/intro.md) - OpenLoong robot documentation
+- [Autonomous Driving](./dora-drives/menu.md) - Learn autonomous driving with CARLA simulator
 

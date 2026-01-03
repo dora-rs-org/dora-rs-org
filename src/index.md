@@ -17,6 +17,7 @@ dora run
 
 ## 项目文档
 
-- [教程](./dora-example/menu.md) - 通过例子学习Dora的使用方法
-- [OpenLoong样例](./openloong/intro.md) - OpenLoong机器人相关文档
+- [Dora 手把手教程](./dora-example/menu.md) - 通过例子学习 Dora 的使用方法
+- [OpenLoong 样例](./openloong/intro.md) - OpenLoong 机器人相关文档
+- [自动驾驶入门](./dora-drives/menu.md) - 使用 CARLA 模拟器学习自动驾驶
 

@@ -2,7 +2,7 @@
 
 - [首页](./index.md)
 
-- [教程](./dora-example/menu.md)
+- [Dora 手把手教程](./dora-example/menu.md)
   - [安装](./dora-example/install.md)
   - [基础](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)
