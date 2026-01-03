@@ -1,55 +1,58 @@
-# Table of Contents
-- [Introduction](./intro.md)
-- [Table of Contents](./menu.md)
-- [Installation](./install.md)
-- [Basics](./basic.md)
-  - [echo](./basic/echo.md)
-  - [Multiple Daemons](./basic/multiple-daemons.md)
-  - [Multilingual Programming](./basic/multilang.md)
-    - [C/C++](./basic/cpp.md)
-      - [Dataflow](./basic/cpp/dataflow.md)
-      - [Arrow Dataflow](./basic/cpp/arrow-dataflow.md)
-      - [C Dataflow](./basic/cpp/c-dataflow.md)
-      - [CMake Dataflow](./basic/cpp/cmake-dataflow)
-      - [ROS2 Dataflow](./basic/cpp/ros2-dataflow)
-      - [CXX Dataflow](./basic/cpp/cxx-dataflow.md)
-    - [Python](./basic/python.md)
-      - [Dataflow](./basic/python/dataflow.md)
-      - [Operator](./basic/python/operator-dataflow.md)
-      - [Async](./basic/python/async.md)
-      - [Multiple Python Environments](./basic/python/multi-env.md)
-      - [ROS2 Dataflow](./basic/python/ros2-dataflow.md)
-    - [Rust](./basic/rust.md)
-      - [Rust Dataflow](./basic/rust/dataflow.md)
-      - [Rust URL Dataflow](./basic/rust/dataflow-url.md)
-      - [Rust ROS2 Dataflow](./basic/rust/ros2-dataflow.md)
-- [Intermediate](./medium.md)
-  - [Visualization](./medium/rerun-viewer)
-  - [Using Camera](./medium/camera.md)
-  - [AV1 Encoding](./medium/av1-encoding.md)
-  - [Depth Camera](./medium/depth-camera.md)
-  - [Depth Image Processing](./medium/mediapipe.md)
-  - [Object Detection](./medium/object-detection.md)
-  - [Large Language Model](./medium/llm.md)
-  - [OpenAI](./medium/openai-server.md)
-  - [Speech to Speech](./medium/speech-to-speech.md)
-  - [Speech to Text](./medium/speech-to-text.md)
-  - [Tracker](./medium/tracker.md)
-  - [Translation](./medium/translation.md)
-  - [Vision Language Model](./medium/vlm.md)
-- [Application Scenarios](./advanced.md)
-  - [alexk-lcr](./advanced/alexk-lcr.md)
-  - [aloha](./advanced/aloha.md)
-  - [reachy](./advanced/reachy.md)
-    - [reachy1](./advanced/reachy/reachy1.md)
-    - [reachy2](./advanced/reachy/reachy2.md)
-    - [reachy2 Remote](./advanced/reachy/reachy2-remote.md)
-  - [lebai](./advanced/lebai.md)
-  - [so101](./advanced/so101.md)
-    - [Remote](./advanced/so101/remote.md)
-  - [franka](./advanced/franka.md)
-  - [PiPer](./advanced/piper.md)
+# Hands-on Examples
 
-- [Other Examples](./others.md)
-  - [Benchmark](./others/benchmark.md)
-  - [Python Arrow Test](./others/pyarrow-test.md)
+Welcome to the DORA-RS hands-on tutorials! This guide will help you learn how to build robotic applications with DORA from scratch.
+
+## Overview
+
+DORA (Dataflow-Oriented Robotic Architecture) is a modern robotics framework that provides:
+
+- **Modular Design** - Break complex systems into independent nodes
+- **Low Latency Communication** - Shared memory and zero-copy transfers
+- **Multi-language Support** - Python, Rust, C/C++ mixed programming
+- **Lightweight Deployment** - No complex dependency configurations
+
+## Learning Path
+
+### Getting Started
+
+If you're new to DORA, we recommend following this order:
+
+1. **[Installation](./install.md)** - Install DORA CLI and dependencies
+2. **[Echo Example](./basic/echo.md)** - Understand basic dataflow concepts
+3. **[Python Dataflow](./basic/python/dataflow.md)** - Create your first Python node
+4. **[Using Camera](./medium/camera.md)** - Learn to process video streams
+
+### Multi-language Development
+
+Choose based on your preferred programming language:
+
+- **Python Developers** - Start with [Python Basics](./basic/python.md)
+- **Rust Developers** - Start with [Rust Dataflow](./basic/rust/dataflow.md)
+- **C/C++ Developers** - Start with [C++ Dataflow](./basic/cpp.md)
+
+### AI & Perception
+
+Interested in AI applications? We recommend:
+
+- [Object Detection](./medium/object-detection.md) - YOLO target detection
+- [Vision Language Model](./medium/vlm.md) - Qwen2.5-VL multimodal understanding
+- [Speech to Speech](./medium/speech-to-speech.md) - Real-time voice interaction
+
+### Robot Control
+
+Need to control real robots? Check out:
+
+- [Lebai Robot Arm](./advanced/lebai.md) - Lebai robot driver
+- [SO-101 Robot Arm](./advanced/so101.md) - SO-101 MuJoCo simulation
+- [Franka Panda](./advanced/franka.md) - Franka robot driver
+- [UR5](./advanced/ur5.md) - Universal Robots UR5 driver
+
+## Source Code Repository
+
+Complete source code for all examples: [github.com/dora-rs/dora-examples](https://github.com/dora-rs/dora-examples)
+
+## Getting Help
+
+- Read the [DORA Official Documentation](https://dora-rs.ai)
+- Submit an [Issue](https://github.com/dora-rs/dora/issues) on GitHub
+- Join community discussions

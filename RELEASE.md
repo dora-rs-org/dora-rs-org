@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.12 (2026-01-03)
+
+### Changes
+- Replace duplicate table of contents with introduction and learning path (section 2)
+- Add DORA overview, beginner guide, multi-language paths, AI/perception, and robot control suggestions
+
 ## v2.5.11 (2026-01-03)
 
 ### Changes
