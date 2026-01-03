@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.5.10 (2026-01-03)
+
+### Changes
+- Rename so100 to so101 robot arm driver documentation (section 2.4.2)
+- Update with SO-101 MuJoCo simulation driver content
+- Add features, node interfaces, configuration, and integration examples
+
 ## v2.5.9 (2026-01-02)
 
 ### Changes

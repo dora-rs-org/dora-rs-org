@@ -45,8 +45,8 @@
     - [reachy2](./advanced/reachy/reachy2.md)
     - [reachy2远程](./advanced/reachy/reachy2-remote.md)
   - [lebai](./advanced/lebai.md)
-  - [so100](./advanced/so100.md)
-    - [远程](./advanced/so100/remote.md)
+  - [so101](./advanced/so101.md)
+    - [远程](./advanced/so101/remote.md)
   - [franka](./advanced/franka.md)
   - [PiPer](./advanced/piper.md)
 

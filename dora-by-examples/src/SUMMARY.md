@@ -42,8 +42,8 @@
   - [视觉语言模型](./medium/vlm.md)
 - [场景应用](./advanced.md)
   - [lebai](./advanced/lebai.md)
-  - [so100](./advanced/so100.md)
-    - [远程](./advanced/so100/remote.md)
+  - [so101](./advanced/so101.md)
+    - [远程](./advanced/so101/remote.md)
   - [franka](./advanced/franka.md)
   - [PiPer](./advanced/piper.md)
 
