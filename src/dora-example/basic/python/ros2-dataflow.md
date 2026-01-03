@@ -31,4 +31,4 @@ $ dora run dataflow.yml --uv
 
 ## 源码
 
-完整源码请参考：[dora-examples/python-ros2-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/python-ros2-dataflow)
+完整源码请参考：[dora-examples/python-ros2-dataflow](https://gitcode.com/dora-org/dora-examples/tree/main/examples/python-ros2-dataflow)

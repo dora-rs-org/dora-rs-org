@@ -2,7 +2,7 @@
 
 本示例演示使用 [MediaPipe](https://developers.google.com/mediapipe) 和 dora-rs 进行人体姿态检测，并通过 [Rerun](https://rerun.io/) 进行可视化。
 
-> 源代码：[mediapipe](https://github.com/dora-rs/dora-examples/tree/main/examples/mediapipe)
+> 源代码：[mediapipe](https://gitcode.com/dora-org/dora-examples/tree/main/examples/mediapipe)
 
 ## 概述
 

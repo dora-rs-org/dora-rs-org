@@ -180,7 +180,7 @@ pip install dora-rs==X.Y.Z
 
 ## 源码
 
-完整源码请参考：[dora-examples/speech-to-speech](https://github.com/dora-rs/dora-examples/tree/main/examples/speech-to-speech)
+完整源码请参考：[dora-examples/speech-to-speech](https://gitcode.com/dora-org/dora-examples/tree/main/examples/speech-to-speech)
 
 - [dora-microphone](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-microphone) - 麦克风捕获节点
 - [dora-vad](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-vad) - 语音活动检测节点

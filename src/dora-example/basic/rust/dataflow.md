@@ -2,4 +2,4 @@
 
 ## 源码
 
-完整源码请参考：[dora-examples/rust-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/rust-dataflow)
+完整源码请参考：[dora-examples/rust-dataflow](https://gitcode.com/dora-org/dora-examples/tree/main/examples/rust-dataflow)

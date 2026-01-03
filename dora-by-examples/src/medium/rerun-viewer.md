@@ -8,7 +8,7 @@
 
 ## 概述
 
-[`dataflow.yml`](https://github.com/dora-rs/dora-examples/blob/main/examples/rerun-viewer/dataflow.yml) 定义了一个简单的数据流图，包含两个节点：
+[`dataflow.yml`](https://gitcode.com/dora-org/dora-examples/blob/main/examples/rerun-viewer/dataflow.yml) 定义了一个简单的数据流图，包含两个节点：
 
 - **camera**: 使用 `opencv-video-capture` 从摄像头捕获视频帧
 - **rerun**: 使用 `dora-rerun` 在 Rerun 可视化工具中显示捕获的帧
@@ -41,4 +41,4 @@ dora start dataflow.yml
 
 ## 源码
 
-完整源码请参考：[dora-examples/rerun-viewer](https://github.com/dora-rs/dora-examples/tree/main/examples/rerun-viewer)
+完整源码请参考：[dora-examples/rerun-viewer](https://gitcode.com/dora-org/dora-examples/tree/main/examples/rerun-viewer)

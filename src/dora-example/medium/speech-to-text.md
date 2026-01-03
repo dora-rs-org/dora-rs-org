@@ -112,7 +112,7 @@ HF_ENDPOINT=https://hf-mirror.com dora build whisper.yml --uv
 
 ## 源码
 
-完整源码请参考：[dora-examples/speech-to-text](https://github.com/dora-rs/dora-examples/tree/main/examples/speech-to-text)
+完整源码请参考：[dora-examples/speech-to-text](https://gitcode.com/dora-org/dora-examples/tree/main/examples/speech-to-text)
 
 - [dora-microphone](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-microphone)
 - [dora-vad](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-vad)

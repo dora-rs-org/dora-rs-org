@@ -49,7 +49,7 @@ DORA (Dataflow-Oriented Robotic Architecture) 是一个现代化的机器人框�
 
 ## 源码仓库
 
-所有示例的完整源码请访问：[github.com/dora-rs/dora-examples](https://github.com/dora-rs/dora-examples)
+所有示例的完整源码请访问：[gitcode.com/dora-org/dora-examples](https://gitcode.com/dora-org/dora-examples)
 
 ## 获取帮助
 

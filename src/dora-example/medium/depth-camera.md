@@ -163,7 +163,7 @@ pip install dora-rs==X.Y.Z
 
 ## 源码
 
-完整源码请参考：[dora-examples/depth_camera](https://github.com/dora-rs/dora-examples/tree/main/examples/depth_camera)
+完整源码请参考：[dora-examples/depth_camera](https://gitcode.com/dora-org/dora-examples/tree/main/examples/depth_camera)
 
 - [dora-pyrealsense](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-pyrealsense) - Intel RealSense相机节点
 - [dora-ios-lidar](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-ios-lidar) - iOS LiDAR相机节点

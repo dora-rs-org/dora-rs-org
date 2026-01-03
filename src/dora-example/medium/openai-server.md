@@ -174,7 +174,7 @@ nodes:
 
 ## 源码
 
-完整源码请参考：[dora-examples/openai-server](https://github.com/dora-rs/dora-examples/tree/main/examples/openai-server)
+完整源码请参考：[dora-examples/openai-server](https://gitcode.com/dora-org/dora-examples/tree/main/examples/openai-server)
 
 - [dora-openai-server](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-openai-server) - OpenAI兼容API服务器节点
 - [dora-echo](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-echo) - 简单回显节点

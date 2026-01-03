@@ -75,4 +75,4 @@ cargo run --release --example zenoh-dataflow
 
 ## 源码
 
-完整源码请参考：[dora-examples/rust-zenoh-dataflow](https://github.com/dora-rs/dora-examples/tree/main/examples/rust-zenoh-dataflow)
+完整源码请参考：[dora-examples/rust-zenoh-dataflow](https://gitcode.com/dora-org/dora-examples/tree/main/examples/rust-zenoh-dataflow)

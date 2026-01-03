@@ -2,7 +2,7 @@
 
 本示例演示使用 [YOLO](https://docs.ultralytics.com/)（You Only Look Once）和 dora-rs 进行实时物体检测，并通过 [Rerun](https://rerun.io/) 进行可视化。
 
-> 源代码：[object-detection](https://github.com/dora-rs/dora-examples/tree/main/examples/object-detection)
+> 源代码：[object-detection](https://gitcode.com/dora-org/dora-examples/tree/main/examples/object-detection)
 
 ## 概述
 

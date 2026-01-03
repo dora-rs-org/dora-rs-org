@@ -137,7 +137,7 @@ rerun --connect rerun+http://127.0.0.1:9876/proxy
 
 ## 源码
 
-完整源码请参考：[dora-examples/tracker](https://github.com/dora-rs/dora-examples/tree/main/examples/tracker)
+完整源码请参考：[dora-examples/tracker](https://gitcode.com/dora-org/dora-examples/tree/main/examples/tracker)
 
 - [opencv-video-capture](https://github.com/dora-rs/dora-hub/tree/main/node-hub/opencv-video-capture)
 - [dora-yolo](https://github.com/dora-rs/dora-hub/tree/main/node-hub/dora-yolo)

@@ -2,7 +2,7 @@
 
 本示例演示使用 [Qwen](https://github.com/QwenLM/Qwen) 大语言模型和 dora-rs 构建语音交互 AI 助手。它可以捕获语音、转录文字、使用 Qwen 生成回复，并将回复朗读出来。
 
-> 源代码：[llm](https://github.com/dora-rs/dora-examples/tree/main/examples/llm)
+> 源代码：[llm](https://gitcode.com/dora-org/dora-examples/tree/main/examples/llm)
 
 ## 概述
 

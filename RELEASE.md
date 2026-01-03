@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.5.13 (2026-01-03)
+
+### Changes
+- Update source code links for CN pages to use gitcode.com/dora-org/dora-examples
+- EN pages continue to use github.com/dora-rs/dora-examples
+- Updated 44 documentation files
+
 ## v2.5.12 (2026-01-03)
 
 ### Changes

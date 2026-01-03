@@ -2,7 +2,7 @@
 
 本示例演示使用 [rav1e](https://github.com/xiph/rav1e)（编码器）和 [dav1d](https://code.videolan.org/videolan/dav1d)（解码器）进行实时 AV1 视频编码和解码，并通过 [Rerun](https://rerun.io/) 进行可视化。
 
-> 源代码：[av1-encoding](https://github.com/dora-rs/dora-examples/tree/main/examples/av1-encoding)
+> 源代码：[av1-encoding](https://gitcode.com/dora-org/dora-examples/tree/main/examples/av1-encoding)
 
 ## 概述
 

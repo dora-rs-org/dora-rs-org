@@ -18,4 +18,4 @@ $ dora run dataflow.yml --uv
 
 ## 源码
 
-完整源码请参考：[dora-examples/python-async](https://github.com/dora-rs/dora-examples/tree/main/examples/python-async)
+完整源码请参考：[dora-examples/python-async](https://gitcode.com/dora-org/dora-examples/tree/main/examples/python-async)

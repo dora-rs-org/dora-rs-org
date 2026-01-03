@@ -347,4 +347,4 @@ UR RTDE（实时数据交换）协议提供：
 
 ## 源码
 
-完整源码请参考：[dora-examples/ur5](https://github.com/dora-rs/dora-examples/tree/main/examples/ur5)
+完整源码请参考：[dora-examples/ur5](https://gitcode.com/dora-org/dora-examples/tree/main/examples/ur5)
