@@ -48,7 +48,7 @@
     - [so100](./dora-example/advanced/so100.md)
       - [Remote](./dora-example/advanced/so100/remote.md)
     - [franka](./dora-example/advanced/franka.md)
-    - [PiPer](./dora-example/advanced/piper.md)
+    - [UR5](./dora-example/advanced/ur5.md)
   - [Other Examples](./dora-example/others.md)
     - [Benchmark](./dora-example/others/benchmark.md)
     - [PyArrow Test](./dora-example/others/pyarrow-test.md)

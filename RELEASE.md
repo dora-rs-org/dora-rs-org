@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.9 (2026-01-02)
+
+### Changes
+- Replace PiPer with UR5 robot driver documentation (section 2.4.4)
+- Add UR5 RTDE driver features, URSim Docker setup, node interfaces, and troubleshooting
+
 ## v2.5.8 (2026-01-02)
 
 ### Changes
