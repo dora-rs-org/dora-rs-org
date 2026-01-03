@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.5.7 (2026-01-02)
+
+### Changes
+- Add Franka Panda robot driver documentation (CN and EN)
+- Include features, prerequisites, node interfaces, configuration, and troubleshooting
+
 ## v2.5.6 (2026-01-02)
 
 ### Changes
