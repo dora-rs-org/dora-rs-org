@@ -56,12 +56,24 @@
     - [词汇表](./dora-example/appendix/glossary.md)
     - [ROS2安装](./dora-example/appendix/ros2-installation.md)
 
-- [OpenLoong样例](./openloong/menu.md)
+- [OpenLoong人形机器人](./openloong/menu.md)
   - [介绍](./openloong/intro.md)
   - [开发环境准备](./openloong/install.md)
   - [openloong实例](./openloong/examples.md)
 
-- [自动驾驶入门](./dora-drives/menu.md)
+- [Dora-drives 自动驾驶入门](./dora-drives/menu.md)
   - [介绍](./dora-drives/intro.md)
   - [安装](./dora-drives/install.md)
   - [快速开始](./dora-drives/quickstart.md)
+
+- [Dora-nav 导航](./dora-nav/menu.md)
+  - [介绍](./dora-nav/intro.md)
+  - [环境配置](./dora-nav/install.md)
+  - [节点功能](./dora-nav/nodes.md)
+  - [编译运行](./dora-nav/quickstart.md)
+
+- [Dora-moveit 机械臂](./dora-moveit/menu.md)
+  - [介绍](./dora-moveit/intro.md)
+  - [快速开始](./dora-moveit/quickstart.md)
+  - [系统配置](./dora-moveit/config.md)
+  - [组件详情](./dora-moveit/components.md)

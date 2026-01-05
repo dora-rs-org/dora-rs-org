@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.5.18 (2026-01-05)
+
+### Changes
+- Rename "OpenLoong样例" to "OpenLoong人形机器人" in navigation
+- Rename "自动驾驶入门" to "Dora-drives 自动驾驶入门" in navigation
+- Add "Dora-nav 导航" section with navigation framework documentation
+- Add "Dora-moveit 机械臂" section with GEN72 robot arm documentation
+- Dora-nav: LiDAR-based mapping, localization, and trajectory tracking navigation
+- Dora-moveit: MuJoCo simulation and real robot control with TracIK and RRT-Connect
+
 ## v2.5.17 (2026-01-03)
 
 ### Changes
