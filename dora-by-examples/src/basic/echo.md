@@ -13,7 +13,8 @@ yaml不仅声明了不同节点消息的输入、输出，还可以声明节点�
 > 如果使用[uv](https://github.com/astral-sh/uv)管理的python可在命令中加入`--uv`参数
 进入`examples/echo`文件夹，执行命令
 ```bash
-uv venv -p 3.11 --seed
+# Create a virtual environment if it doesn't exist
+uv venv -p 3.11 --seed 
 # Make sure you have checked out dora to the same folder as dora-hub.
 uv pip install -e ../../../dora/apis/python/node --reinstall
 dora build dataflow.yml --uv
