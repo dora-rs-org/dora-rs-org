@@ -9,7 +9,12 @@ YAML not only declares the inputs and outputs of messages between different node
 > If using Python managed by [uv](https://github.com/astral-sh/uv), you can add the `--uv` parameter to the command
 Enter the `examples/echo` folder and execute the command
 ```bash
-$ dora build dataflow.yaml # --uv
+# Create a virtual environment if it doesn't exist
+$ uv venv -p 3.11 --seed 
+# Make sure you have checked out dora to the same folder as dora-hub.
+$ uv pip install -e ../../../dora/apis/python/node --reinstall
+$ dora build dataflow.yml --uv
+$ dora run dataflow.yml --uv
 ```
 Output:
 ```text
