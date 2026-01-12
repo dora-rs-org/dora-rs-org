@@ -1,7 +1,3 @@
-## 引言
-
-如果你是这方面的新手，请按照教程步骤进行安装。
-
 ## 基础环境
 
 操作系统：Windows 11系统
@@ -391,6 +387,19 @@ Installed 5 packages in 114ms
  + pyarrow==22.0.0
  + pyyaml==6.0.3
  + uv==0.9.24
+
+# 查看已经安装的包
+PS E:\projects\Dora\dora-examples\examples\echo> uv pip list
+Package     Version
+----------- -------
+dora-rs     0.4.0
+dora-rs-cli 0.4.0
+pip         25.3
+pyarrow     22.0.0
+pyyaml      6.0.3
+setuptools  80.9.0
+uv          0.9.24
+wheel       0.45.1
 ```
 
 确认完成安装

@@ -4,7 +4,6 @@
 
 - [Dora 手把手教程](./dora-example/menu.md)
   - [安装](./dora-example/install.md)
-  - [安装(Windows11)](./dora-example/install_win11.md)
   - [基础](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)
     - [分布式（多Daemon）](./dora-example/basic/multiple-daemons.md)
@@ -56,6 +55,11 @@
   - [附录](./dora-example/appendix.md)
     - [词汇表](./dora-example/appendix/glossary.md)
     - [ROS2安装](./dora-example/appendix/ros2-installation.md)
+
+- [Dora 手把手教程(Windows11)](./dora-example-win11/menu.md)
+  - [安装](./dora-example-win11/install.md)
+  - [基础](./dora-example-win11/basic.md)
+    - [echo](./dora-example-win11/basic/echo.md)
 
 - [OpenLoong人形机器人](./openloong/menu.md)
   - [介绍](./openloong/intro.md)
