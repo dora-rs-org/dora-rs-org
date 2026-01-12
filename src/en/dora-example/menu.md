@@ -18,9 +18,10 @@ DORA (Dataflow-Oriented Robotic Architecture) is a modern robotics framework tha
 If you're new to DORA, we recommend following this order:
 
 1. **[Installation](./install.md)** - Install DORA CLI and dependencies
-2. **[Echo Example](./basic/echo.md)** - Understand basic dataflow concepts
-3. **[Python Dataflow](./basic/python/dataflow.md)** - Create your first Python node
-4. **[Using Camera](./medium/camera.md)** - Learn to process video streams
+2. **[Windows 11 Installation](./install_win11.md)** - Detailed installation guide for Windows 11
+3. **[Echo Example](./basic/echo.md)** - Understand basic dataflow concepts
+4. **[Python Dataflow](./basic/python/dataflow.md)** - Create your first Python node
+5. **[Using Camera](./medium/camera.md)** - Learn to process video streams
 
 ### Multi-language Development
 

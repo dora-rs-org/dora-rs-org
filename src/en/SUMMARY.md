@@ -4,6 +4,7 @@
 
 - [Dora Hands-on Tutorial](./dora-example/menu.md)
   - [Installation](./dora-example/install.md)
+  - [Windows 11 Installation](./dora-example/install_win11.md)
   - [Basic](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)
     - [Multiple Daemons](./dora-example/basic/multiple-daemons.md)

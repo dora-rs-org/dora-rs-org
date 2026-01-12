@@ -4,6 +4,7 @@
 
 - [Dora 手把手教程](./dora-example/menu.md)
   - [安装](./dora-example/install.md)
+  - [安装(Windows11)](./dora-example/install_win11.md)
   - [基础](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)
     - [分布式（多Daemon）](./dora-example/basic/multiple-daemons.md)
