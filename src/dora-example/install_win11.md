@@ -258,3 +258,168 @@ git version 2.47.1.windows.1
 或者 `https://gitcode.com/dora-org/dora-examples`
 
 克隆示例工程。
+
+
+## 安装 Dora
+
+我们这里会使用两种方式安装Dora，一种是从源码安装，一种是从Python安装。
+
+通过源码安装的Dora是全局的，当环境变量设置正确的时候，你可以随时在任何目录下使用Dora的命令。
+
+由于我们使用了uv作为Python版本管理工具，所以从Python安装的Dora是安装到uv的Python环境中的，只有当你激活的Python环境安装了Dora，你才能在该环境下使用Python安装的Dora的命令。
+
+同时，通过Python安装Dora时，也会安装Python操作Dora的Api依赖，这些依赖是运行Python实现的Node所必要的。
+
+
+### 通过源码安装
+
+```bash
+PS E:\projects\Dora>  git clone https://github.com/dora-rs/dora.git
+Cloning into 'dora'...
+remote: Enumerating objects: 41094, done.
+remote: Counting objects: 100% (1234/1234), done.
+remote: Compressing objects: 100% (492/492), done.
+remote: Total 41094 (delta 1029), reused 754 (delta 740), pack-reused 39860 (from 4)
+Receiving objects: 100% (41094/41094), 13.69 MiB | 4.32 MiB/s, done.
+Resolving deltas: 100% (24984/24984), done.
+PS E:\projects\Dora> cd dora
+PS E:\projects\Dora\dora> dir
+
+    Directory: E:\projects\Dora\dora
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026-01-06    12:46                .github
+d----          2026-01-06    12:46                apis
+d----          2026-01-06    12:46                binaries
+d----          2026-01-06    12:46                docker
+d----          2026-01-06    12:46                docs
+d----          2026-01-06    12:46                examples
+d----          2026-01-06    12:46                libraries
+d----          2026-01-06    12:46                tests
+-a---          2026-01-06    12:46            161 _typos.toml
+-a---          2026-01-06    12:46           3040 .gitignore
+-a---          2026-01-06    12:46         207024 Cargo.lock
+-a---          2026-01-06    12:46           5674 Cargo.toml
+-a---          2026-01-06    12:46          56777 Changelog.md
+-a---          2026-01-06    12:46           3142 CONTRIBUTING.md
+-a---          2026-01-06    12:46           1373 dist-workspace.toml
+-a---          2026-01-06    12:46           1495 flake.nix
+-a---          2026-01-06    12:46           4167 install.ps1
+-a---          2026-01-06    12:46           4899 install.sh
+-a---          2026-01-06    12:46          11554 LICENSE
+-a---          2026-01-06    12:46            574 NOTICE.md
+-a---          2026-01-06    12:46          17370 README.md
+
+PS E:\projects\Dora\dora>
+```
+
+进入工程目录，执行编译命令：`cargo build --release --package dora-cli`。
+
+```powershell
+PS E:\projects\Dora\dora> cargo build --release --package dora-cli
+    Updating crates.io index
+  Downloaded aligned-vec v0.5.0
+  Downloaded cipher v0.4.4
+  Downloaded dirs v4.0.0
+...
+warning: `dora-cli` (lib) generated 6 warnings (run `cargo fix --lib -p dora-cli` to apply 2 suggestions)
+    Finished `release` profile [optimized] target(s) in 3m 09s
+```
+
+看到这个说明编译成功了，中间可能会看到一些warning，不用管。
+
+验证一下编译结果
+
+```bash
+PS E:\projects\Dora\dora> .\target\release\dora.exe -V
+dora-cli 0.4.0
+```
+
+出现版本号，说明程序编译正常
+
+接下来我们将dora命令加入到环境变量，方便使用
+
+```bash
+# 执行结果
+# 永久添加目标目录到当前用户的 PATH 环境变量
+PS E:\projects\Dora\dora\target\release> [Environment]::SetEnvironmentVariable(
+>>     "Path",
+>>     [Environment]::GetEnvironmentVariable("Path", "User") + ";E:\projects\Dora\dora\target\release",
+>>     "User"
+>> )
+PS E:\projects\Dora\dora\target\release>
+```
+
+重新启动Powershell测试`dora -V`命令，显示版本号说明环境变量设置成功。
+
+恭喜你，完成dora的安装。
+
+### 通过Python安装
+
+```pip
+# 创建 python 环境
+PS E:\projects\Dora\dora-examples\examples\echo> uv venv -p 3.11 --seed
+Using CPython 3.11.14
+Creating virtual environment with seed packages at: .venv
+ + pip==25.3
+ + setuptools==80.9.0
+ + wheel==0.45.1
+Activate with: .venv\Scripts\activate
+
+# 查看虚拟环境安装位置（.venv文件夹就是虚拟环境存放的位置）
+PS E:\projects\Dora\dora-examples\examples\echo> dir
+
+    Directory: E:\projects\Dora\dora-examples\examples\echo
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026-01-12    19:44                .venv
+d----          2026-01-11    10:15                out
+-a---          2026-01-07    14:30              4 .gitignore
+-a---          2026-01-10     3:22            489 dataflow.yml
+-a---          2026-01-07    14:30            225 README.md
+
+# 安装Dora-rs-cli
+# 如果使用国内源可以加上（推荐） -i https://pypi.tuna.tsinghua.edu.cn/simple/
+PS E:\projects\Dora\dora-examples\examples\echo> uv pip install dora-rs-cli -i https://pypi.tuna.tsinghua.edu.cn/simple/
+Resolved 5 packages in 589ms
+Prepared 5 packages in 1.04s
+Installed 5 packages in 114ms
+ + dora-rs==0.4.0
+ + dora-rs-cli==0.4.0
+ + pyarrow==22.0.0
+ + pyyaml==6.0.3
+ + uv==0.9.24
+```
+
+确认完成安装
+
+```bash
+# 通过 uv 执行虚拟环境中安装的dora命令
+PS E:\projects\Dora\dora-examples\examples\echo> uv run dora -V
+dora-cli 0.4.0
+
+# 激活虚拟环境
+PS E:\projects\Dora\dora-examples\examples\echo> .\.venv\Scripts\activate
+
+# 查看dora命令的位置，发现它来自我们的虚拟环境
+(echo) PS E:\projects\Dora\dora-examples\examples\echo> Get-Command dora
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     dora.exe                                           0.0.0.0    E:\projects\Dora\dora-examples\examples\echo\.venv/Scripts…
+
+
+# 离开虚拟环境
+(echo) PS E:\projects\Dora\dora-examples\examples\echo> deactivate
+
+# 查看dora命令的位置，发现它来自我们之前通过源码编译的发布位置
+PS E:\projects\Dora\dora-examples\examples\echo> Get-Command dora
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     dora.exe                                           0.0.0.0    E:\projects\Dora\dora\target\release\dora.exe
+                                          0.0.0.0    E:\Dev\SDK\Cargo\bin\uv.exe
+
+```
