@@ -56,6 +56,9 @@
     - [Glossary](./dora-example/appendix/glossary.md)
     - [ROS2 Installation](./dora-example/appendix/ros2-installation.md)
 
+- [Dora Hands-on Tutorial](./dora-example/menu.md)
+  - [Windows 11 Installation](./dora-example/install.md)
+
 - [OpenLoong Examples](./openloong/menu.md)
   - [Introduction](./openloong/intro.md)
   - [Environment Setup](./openloong/install.md)
@@ -65,3 +68,15 @@
   - [Introduction](./dora-drives/intro.md)
   - [Installation](./dora-drives/install.md)
   - [Getting Started](./dora-drives/quickstart.md)
+
+- [Dora-nav Navigation](./dora-nav/menu.md)
+  - [Introduction](./dora-nav/intro.md)
+  - [Environment Setup](./dora-nav/install.md)
+  - [Node Functions](./dora-nav/nodes.md)
+  - [Build and Run](./dora-nav/quickstart.md)
+
+- [Dora-moveit Robotic Arm](./dora-moveit/menu.md)
+  - [Introduction](./dora-moveit/intro.md)
+  - [Quick Start](./dora-moveit/quickstart.md)
+  - [System Configuration](./dora-moveit/config.md)
+  - [Component Details](./dora-moveit/components.md)
