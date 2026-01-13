@@ -56,8 +56,8 @@
     - [Glossary](./dora-example/appendix/glossary.md)
     - [ROS2 Installation](./dora-example/appendix/ros2-installation.md)
 
-- [Dora Hands-on Tutorial](./dora-example/menu.md)
-  - [Windows 11 Installation](./dora-example/install.md)
+- [Dora Hands-on Tutorial](./dora-example-win11/menu.md)
+  - [Windows 11 Installation](./dora-example-win11/install.md)
 
 - [OpenLoong Examples](./openloong/menu.md)
   - [Introduction](./openloong/intro.md)
