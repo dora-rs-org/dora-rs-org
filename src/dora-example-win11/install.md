@@ -48,22 +48,59 @@ Rustup 是 Rust 官方的跨平台 Rust 安装工具，同时提供了 Rust 版�
 如果你想自定义安装位置，可以在执行之前设置环境变量。
 
 ```powershell
-# 1. 定义路径
-# 定义目标路径，这里根据需要修改成自己的路径
-$rustupPath = "E:\Dev\SDK\Rustup"
-$cargoPath = "E:\Dev\SDK\Cargo"
-$cargoBin = "E:\Dev\SDK\Cargo\bin"
+# ==========================================================
+# Rust 全家桶环境变量配置脚本 (2026 更新版)
+# 参考：https://rust-lang.github.io/rustup/environment-variables.html
+# ==========================================================
 
-# 2. 写入用户环境变量
-[Environment]::SetEnvironmentVariable("RUSTUP_HOME", $rustupPath, "User")
-[Environment]::SetEnvironmentVariable("CARGO_HOME", $cargoPath, "User")
+# --- 1. 基础路径定义 ---
+$baseDir = "E:\Dev\SDK"
+$rustupHome = Join-Path $baseDir "Rustup"
+$cargoHome  = Join-Path $baseDir "Cargo"
+$cargoBin   = Join-Path $cargoHome "bin"
 
-# 3. 安全地添加 Path（防止重复并确保分号正确）
+# --- 2. 核心存储路径 ---
+[Environment]::SetEnvironmentVariable("RUSTUP_HOME", $rustupHome, "User")
+[Environment]::SetEnvironmentVariable("CARGO_HOME", $cargoHome, "User")
+
+# --- 3. 性能与行为优化 (根据最新文档新增) ---
+
+# [网络] 如果你在国内，建议取消下面两行的注释以使用字节跳动或清华镜像，加快下载速度
+# [Environment]::SetEnvironmentVariable("RUSTUP_DIST_SERVER", "https://rsproxy.cn", "User")
+# [Environment]::SetEnvironmentVariable("RUSTUP_UPDATE_ROOT", "https://rsproxy.cn/rustup", "User")
+
+# [并发] 增加并发下载数（默认随组件数，强制指定可提高稳定性）
+[Environment]::SetEnvironmentVariable("RUSTUP_CONCURRENT_DOWNLOADS", "4", "User")
+
+# [IO/线程] 设置 IO 线程数，提升解压速度 (最大 8)
+[Environment]::SetEnvironmentVariable("RUSTUP_IO_THREADS", "8", "User")
+
+# [内存] 解压时允许使用的最大 RAM (单位: 字节)，此处设为 1GB
+[Environment]::SetEnvironmentVariable("RUSTUP_UNPACK_RAM", "1073741824", "User")
+
+# [自动安装] 默认开启。如果运行未安装的工具链命令，rustup 会自动下载
+[Environment]::SetEnvironmentVariable("RUSTUP_AUTO_INSTALL", "1", "User")
+
+# [超时] 增加下载超时时间到 300 秒 (默认 180)，防止网络波动导致中断
+[Environment]::SetEnvironmentVariable("RUSTUP_DOWNLOAD_TIMEOUT", "300", "User")
+
+# --- 4. 界面与反馈 ---
+# 强制显示彩色输出和进度条
+[Environment]::SetEnvironmentVariable("RUSTUP_TERM_COLOR", "always", "User")
+[Environment]::SetEnvironmentVariable("RUSTUP_TERM_PROGRESS_WHEN", "always", "User")
+
+# --- 5. 安全地更新系统 Path ---
 $oldPath = [Environment]::GetEnvironmentVariable("Path", "User")
 if ($oldPath -notlike "*$cargoBin*") {
-    $newPath = $oldPath.TrimEnd(';') + ";" + $cargoBin
+    $cleanPath = if ([string]::IsNullOrWhiteSpace($oldPath)) { "" } else { $oldPath.TrimEnd(';') }
+    $newPath = $cleanPath + ";" + $cargoBin
     [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
+    Write-Host "✅ Path 已更新，指向: $cargoBin" -ForegroundColor Green
+} else {
+    Write-Host "ℹ️ Path 中已存在 Cargo 路径，跳过更新。" -ForegroundColor Cyan
 }
+
+Write-Host "`n🚀 Rust 环境变量配置完成！请重启终端（如 PowerShell/CMD）使设置生效。" -ForegroundColor Yellow
 ```
 
 执行 `rustup-init.exe` 命令开始安装。
@@ -160,55 +197,74 @@ Application     uv.exe                                             0.0.0.0    E:
 PS C:\Users\dora>
 ```
 
-如果想自定义安装位置，需要修改以下环境变量再安装：
-
-| 用途 | 目标路径 | 对应环境变量 |
-| --- | --- | --- |
-| uv 自身安装路径 | `E:\Dev\SDK\uv\bin` | `UV_INSTALL_DIR` |
-| uv 下载缓存路径 | `E:\Dev\SDK\uv\cache` | `UV_CACHE_DIR` |
-| uv 全局 Python 安装路径 | `E:\Dev\SDK\uv\python` | `UV_PYTHON_INSTALL_DIR` |
-| uv 项目依赖下载路径 | `E:\Dev\SDK\uv\downloads` | `UV_DOWNLOAD_DIR` |
+如果想自定义安装位置，可以修改以下环境变量再安装：
 
 ```powershell
-# 定义目标路径，这里根据需要修改成自己的路径
+# ==========================================================
+# UV 全家桶环境变量配置脚本 (基于 0.9.x+ 文档)
+# https://docs.astral.sh/uv/reference/environment/
+# 目标：将所有下载、缓存、Python解释器及工具锁定在非系统盘
+# ==========================================================
+
+# 1. 定义基础路径
 $baseDir = "E:\Dev\SDK\uv"
+
+# 2. 定义变量映射 (严格对照官方文档)
 $envMap = @{
+    # uv 程序本身的安装位置 (uv self update 也会更新到这里)
     "UV_INSTALL_DIR"         = "$baseDir\bin"
+    
+    # 全局缓存（Wheels, 源文件, 索引缓存等）- 占用空间最大
     "UV_CACHE_DIR"           = "$baseDir\cache"
+    
+    # 已经解压安装好的 Python 解释器存放地
     "UV_PYTHON_INSTALL_DIR"  = "$baseDir\python"
-    "UV_DOWNLOAD_DIR"        = "$baseDir\downloads"
+    
+    # 下载 Python 安装包压缩包时的临时存放地 (防止占用C盘Temp)
+    "UV_PYTHON_CACHE_DIR"    = "$baseDir\python-cache"
+    
+    # 通过 'uv tool install' 安装的工具虚拟环境位置
+    "UV_TOOL_DIR"            = "$baseDir\tools"
+    
+    # 工具的可执行文件快捷方式存放地
+    "UV_TOOL_BIN_DIR"        = "$baseDir\tools-bin"
 }
 
-# 1. 批量创建目录
+Write-Host "正在初始化 UV 离线/自定义路径环境..." -ForegroundColor Cyan
+
+# 3. 批量创建物理目录
 foreach ($path in $envMap.Values) {
-    if (!(Test-Path $path)) { New-Item -ItemType Directory -Path $path -Force | Out-Null }
+    if (!(Test-Path $path)) { 
+        New-Item -ItemType Directory -Path $path -Force | Out-Null
+        Write-Host "已创建目录: $path"
+    }
 }
 
-# 2. 批量设置用户环境变量
+# 4. 批量设置用户环境变量
 foreach ($name in $envMap.Keys) {
     [Environment]::SetEnvironmentVariable($name, $envMap[$name], "User")
+    Write-Host "已设置环境变量: $name -> $($envMap[$name])"
 }
 
-# 3. 将 uv 目录加入 Path
+# 5. 将必要的 Bin 目录加入 Path (用户 Path)
 $oldPath = [Environment]::GetEnvironmentVariable("Path", "User")
-$binPath = $envMap["UV_INSTALL_DIR"]
-if ($oldPath -notlike "*$binPath*") {
-    $newPath = $oldPath.TrimEnd(';') + ";" + $binPath
-    [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
+# 我们需要把 uv 本身和 uv tool 安装的工具都加入 Path
+$targetBins = @($envMap["UV_INSTALL_DIR"], $envMap["UV_TOOL_BIN_DIR"])
+
+foreach ($binPath in $targetBins) {
+    if ($oldPath -notlike "*$binPath*") {
+        $oldPath = $oldPath.TrimEnd(';') + ";" + $binPath
+        Write-Host "已将路径加入 Path: $binPath" -ForegroundColor Green
+    }
 }
+[Environment]::SetEnvironmentVariable("Path", $oldPath, "User")
+
+Write-Host "`n配置完成！请重启所有终端（或重启资源管理器）生效。" -ForegroundColor Yellow
+Write-Host "验证方法：执行 'uv python dir' 和 'uv cache dir' 查看输出路径。"
 ```
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-```powershell
-# 永久添加 uv 可执行文件路径到当前用户的 PATH 环境变量
-[Environment]::SetEnvironmentVariable(
-    "Path",
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";$env:UV_INSTALL_DIR",
-    "User"
-)
 ```
 
 重启 PowerShell，执行 `uv -V` 验证 uv 是否安装成功。
@@ -255,10 +311,11 @@ git version 2.47.1.windows.1
 
 克隆示例工程。
 
+### 克隆 dora-rs-org 工程（文档源码，可以不用）
+
+从 `https://github.com/dora-rs-org/dora-rs-org` 克隆 Dora 文档工程。
 
 ## 安装 Dora
-
-我们这里会使用两种方式安装Dora，一种是从源码安装，一种是从Python安装。
 
 通过源码安装的Dora是全局的，当环境变量设置正确的时候，你可以随时在任何目录下使用Dora的命令。
 
