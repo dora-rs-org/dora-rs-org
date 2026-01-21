@@ -1,6 +1,5 @@
 # echo
 
-
 Dora中，一个逻辑功能通常作为节点（Node）。不同逻辑功能的交互依赖于信息的交互（Dataflow）。为了方便不同节点之间的组合，Dora使用yaml文件来声明消息的“流动”。
 
 yaml不仅声明了不同节点消息的输入、输出，还可以声明节点构建（编译、安装）的过程。在使用这些节点之前需要先进行构建。
@@ -12,8 +11,6 @@ yaml不仅声明了不同节点消息的输入、输出，还可以声明节点�
 ```bash
 # Create a virtual environment if it doesn't exist
 $ uv venv -p 3.11 --seed 
-# Make sure you have checked out dora to the same folder as dora-hub.
-$ uv pip install -e ../../../dora/apis/python/node --reinstall
 $ dora build dataflow.yml --uv
 $ dora run dataflow.yml --uv
 ```
