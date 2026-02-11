@@ -60,6 +60,7 @@
   - [安装](./dora-example-win11/install.md)
   - [基础](./dora-example-win11/basic.md)
     - [echo](./dora-example-win11/basic/echo.md)
+    - [分布式（多Daemon）](./dora-example-win11/basic/multiple-daemons.md)
 
 - [OpenLoong人形机器人](./openloong/menu.md)
   - [介绍](./openloong/intro.md)
